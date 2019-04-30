@@ -14,4 +14,3 @@
 # limitations under the License.
 
 BUILD_RRO_SYSTEM_PACKAGE := $(TOP)/vendor/validus/build/core/system_rro.mk
-SELINUX_IGNORE_NEVERALLOWS := true
