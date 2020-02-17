@@ -98,7 +98,8 @@ PRODUCT_PACKAGES += \
     Basic \
     LiveWallpapersPicker \
     PhaseBeam \
-    ThemePicker
+    ThemePicker \
+    OmniJaws
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
