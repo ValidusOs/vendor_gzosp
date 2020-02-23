@@ -99,7 +99,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     PhaseBeam \
     ThemePicker \
-    OmniJaws
+    OmniJaws \
+    Phonograph
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
