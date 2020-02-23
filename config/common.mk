@@ -119,6 +119,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
     Launcher3Dark \
+    ExactCalculator \
     OmniStyle
 
 
