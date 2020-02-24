@@ -18,6 +18,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := validus-overlays
 LOCAL_REQUIRED_MODULES := \
 	AccentColorBlueGreyOverlay \
+	AccentColorCinnamonDarkOverlay \
 	AccentColorClownsNoseOverlay \
 	AccentColorMintOverlay \
 	AccentColorNexusGreenOverlay \
