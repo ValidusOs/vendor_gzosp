@@ -135,7 +135,18 @@ PRODUCT_PACKAGES += \
     ntfsfix \
     ntfs-3g
 
-
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := false
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
+ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+TARGET_FACE_UNLOCK_SUPPORTED := true
+endif
+endif
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+    
 PRODUCT_PACKAGES += \
     charger_res_images
 
