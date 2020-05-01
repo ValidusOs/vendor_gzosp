@@ -10,3 +10,7 @@ PRODUCT_PACKAGES += \
 # SMS
 PRODUCT_PACKAGES += \
 	messaging
+
+# GSM APN list
+PRODUCT_PACKAGES += \
+    apns-conf.xml
