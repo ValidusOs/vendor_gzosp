@@ -4,7 +4,8 @@ $(call inherit-product, vendor/validus/config/common_apn.mk)
 
 # Telephony 
 PRODUCT_PACKAGES += \
-    Stk 
+    Stk \
+    CellBroadcastReceiver
 
 # SMS
 PRODUCT_PACKAGES += \
