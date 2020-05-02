@@ -66,7 +66,8 @@ PRODUCT_COPY_FILES += \
 # privapp permissions
 PRODUCT_COPY_FILES += \
     vendor/validus/prebuilt/common/etc/permissions/privapp-permissions-gzr.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-gzr.xml \
-    vendor/validus/prebuilt/common/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml
+    vendor/validus/prebuilt/common/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
+    vendor/validus/config/permissions/privapp-permissions-gzosp-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-gzosp.xml
 
 # Fonts
 PRODUCT_PACKAGES += \
